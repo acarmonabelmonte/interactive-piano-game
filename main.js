@@ -25,6 +25,7 @@ let eventAssignment = (note) => {
 }
 
 // Write a loop that runs the array elements through the function
+notes.forEach(eventAssignment);
 
 
 // These variables store the buttons that progress the user through the lyrics
