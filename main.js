@@ -6,7 +6,9 @@ keys.forEach(function (key) {
 })
 
 // Write named functions that change the color of the keys below
-
+let keyPlay = (event) => {
+    event.target.style.backgroundColor = "#0abf53";
+}
 
 // Write a named function with event handler properties
 
