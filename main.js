@@ -10,9 +10,18 @@ const keyPlay = (event) => {
     event.target.style.backgroundColor = "#0abf53";
 }
 
-// Write a named function with event handler properties
 const keyReturn = (event) => {
     event.target.style.backgroundColor = "";
+}
+
+// Write a named function with event handler properties
+let eventAssignment = (note) => {
+    note.onmouseDown = () => {
+        keyPlay(event);
+    }
+    note.onmouseUp = () => {
+        keyReturn(event);
+    }
 }
 
 // Write a loop that runs the array elements through the function
