@@ -53,6 +53,13 @@ nextOne.onclick = () => {
 
 
 // Write anonymous event handler property and function for the second progress button
+nextTwo.onclick = () => {
+    nextThree.hidden = false;
+    nextOne.hidden = true;
+
+    document.getElementById("word-five").innerHTML = "DEAR"
+    document.getElementById("word-six").innerHTML = "FRI-"
+}
 
 
 // Write anonymous event handler property and function for the third progress button
